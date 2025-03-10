@@ -1,0 +1,222 @@
+/*======================================
+ Team One Css
+========================================*/
+.team-one {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+    padding: 0px 0px 82px;
+    z-index: 1;
+}
+
+.team-one .sec-title {
+    padding-bottom: 82px;
+}
+
+.team-one__single {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.team-one__single-img {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.team-one__single-img .round-box {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    width: 310px;
+    height: 310px;
+    background: #ffa38b;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.team-one__single-img .round-box::before {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    right: 8px;
+    background: #f4f0e7;
+    border-radius: 50%;
+    transform: scale(1.0);
+    opacity: 1;
+    transition-delay: 0.6s;
+    transition: .7s;
+    content: "";
+}
+
+.team-one__single:hover .team-one__single-img .round-box::before {
+    transform: scale(0.6);
+    opacity: 0;
+}
+
+.team-one__single-img::before {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-gray-bg);
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    content: "";
+    z-index: -1;
+}
+
+.team-one__single-img .inner {
+    position: relative;
+    display: block;
+}
+
+.team-one__single-img .inner img {
+    width: auto;
+}
+
+
+.team-one__single-content {
+    position: relative;
+    display: block;
+    padding-top: 33px;
+}
+
+.team-one__single-content p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.team-one__single-content h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.team-one__single-content h2 a {
+    color: var(--thm-black);
+}
+
+.team-one__single-content h2 a:hover {
+    color: var(--thm-primary);
+}
+
+.team-one__single-content .social-links {
+    position: relative;
+    display: block;
+    margin-top: 22px;
+}
+
+.team-one__single-content .social-links a {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-gray);
+}
+
+.team-one__single-content .social-links a+a {
+    margin-left: 10px;
+}
+
+.team-one__single-content .social-links a:hover {
+    color: var(--thm-primary);
+}
+
+.team-one__single-content .social-links a span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*======================================
+ Team Two Css
+========================================*/
+.team-one.style2 {
+    position: relative;
+    display: block;
+    background: #0C192C;
+}
+
+.team-one.style2 .sec-title .sub-title .text p {
+    color: #B3B7BB;
+}
+
+.team-one.style2 .sec-title h2 {
+    color: var(--thm-white);
+}
+
+.team-one.style2 .team-one__single-img::before {
+    background: #1A273A;
+}
+
+.team-one.style2 .team-one__single-img .round-box {
+    background: rgba(var(--thm-white-rgb), 0.2);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-one.style2 .team-one__single:hover .team-one__single-img .round-box {
+    background: #FFA38B;
+}
+
+.team-one.style2 .team-one__single-img .round-box::before {
+    background: #1A273A;
+}
+
+.team-one.style2 .team-one__single-content p {
+    color: #B3B7BB;
+}
+
+.team-one.style2 .team-one__single-content h2 a {
+    color: var(--thm-white);
+}
+
+.team-one.style2 .team-one__single-content h2 a:hover {
+    color: var(--thm-primary);
+}
+
+.team-one.style2 .team-one__single-content .social-links a {
+    color: #B3B7BB;
+}
+
+.team-one.style2 .team-one__single-content .social-links a:hover {
+    color: var(--thm-primary);
+}
+
+/*======================================
+ Team One About Css
+========================================*/
+.team-one--about {
+    position: relative;
+    display: block;
+    padding: 120px 0px 76px;
+}
+
+/*======================================
+ Team One Team Css
+========================================*/
+.team-one--team {
+    position: relative;
+    display: block;
+    padding: 120px 0px 40px;
+}
+
+.team-one--team .team-one__single {
+    margin-bottom: 73px;
+}
+
+/*======================================
+Case Three Team Css
+========================================*/
+.case-three--team {
+    position: relative;
+    display: block;
+}

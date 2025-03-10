@@ -1,0 +1,32 @@
+/*=============================
+	Counter One Css
+===============================*/
+.counter-one {
+    position: relative;
+    display: block;
+    padding: 120px 0px 69px;
+    background: var(--thm-black-bg);
+    z-index: 1;
+}
+
+.counter-one .counter-one__single {
+    border-bottom: 0px solid #d9d9d9;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+.counter-one .counter-one__single .icon-box span {
+    color: var(--thm-white);
+}
+
+.counter-one .counter-one__single .icon-box::before {
+    background: rgba(var(--thm-white-rgb), 0.2);
+}
+
+.counter-one .counter-one__single .text-box h2 {
+    color: var(--thm-white);
+}
+
+.counter-one .counter-one__single .text-box p {
+    color: #B3B7BB;
+}

@@ -1,0 +1,526 @@
+/*=============================
+	About One Css
+===============================*/
+.about-one {
+    position: relative;
+    display: block;
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.about-one .row {
+    align-items: center;
+}
+
+.about-one__content {
+    position: relative;
+    display: block;
+    max-width: 465px;
+    width: 100%;
+}
+
+.about-one__content .sec-title {
+    padding-bottom: 29px;
+}
+
+.about-one__content-text {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-text p {
+    margin: 0;
+}
+
+.about-one__content-bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.about-one__content-bottom .btn-box {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-bottom .content-box {
+    position: relative;
+    display: block;
+    flex: 1;
+    margin-left: 30px;
+}
+
+.about-one__content-bottom .content-box .signature {
+    position: relative;
+    display: block;
+}
+
+.about-one__content-bottom .content-box .signature img {
+    width: auto;
+}
+
+.about-one__content-bottom .content-box p {
+    margin: 0;
+}
+
+
+.about-one__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 410px;
+    width: 100%;
+    margin-left: -30px;
+    z-index: 1;
+}
+
+.about-one__img::before {
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+    z-index: 9;
+    pointer-events: none;
+}
+
+.about-one__img:hover::before {
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.about-one__img img {
+    width: 100%;
+    transition: .5s ease;
+    transform: scale(1.05);
+}
+
+.about-one__img:hover img {
+    transform: scale(1);
+}
+
+
+.about-one__counter {
+    position: relative;
+    display: block;
+}
+
+.counter-one__single {
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.counter-one__single.style2 {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.counter-one__single .icon-box {
+    position: relative;
+    display: block;
+    max-width: 85px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.counter-one__single .icon-box::before {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    bottom: -15px;
+    width: 1px;
+    background: #d9d9d9;
+    content: "";
+}
+
+.counter-one__single .icon-box span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-black);
+    font-size: 55px;
+    line-height: 55px;
+    transition-delay: 0.1s;
+    transition: all 500ms ease;
+}
+
+.counter-one__single:hover .icon-box span {
+    transform: rotateY(180deg);
+    transition-delay: 0.1s;
+}
+
+.counter-one__single .text-box {
+    position: relative;
+    display: block;
+    flex: 1;
+}
+
+.counter-one__single .text-box h2 {
+    font-size: 50px;
+    line-height: 0.8em;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.counter-one__single .text-box h2 .plus {
+    position: relative;
+    display: inline-block;
+    font-size: 55px;
+    top: 5px;
+    left: -14px;
+}
+
+.counter-one__single .text-box h2 .plus.style2 {
+    left: -26px;
+    top: 8px;
+}
+
+.counter-one__single .text-box h2 .k {
+    position: relative;
+    display: inline-block;
+    left: -14px;
+    top: 5px;
+}
+
+.counter-one__single .text-box p {
+    margin: 0;
+}
+
+/*=============================
+	About Two Css
+===============================*/
+.about-two {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+    padding: 20px 0px 40px;
+    z-index: 1;
+}
+
+.about-two__top-img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.about-two__top-img img {
+    width: 100%;
+}
+
+.about-two__top-content {
+    position: relative;
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin-left: 60px;
+}
+
+.about-two__top-content .sec-title {
+    padding-bottom: 29px;
+}
+
+.about-two__top-content-text {
+    position: relative;
+    display: block;
+}
+
+.about-two__top-content-text p {
+    margin: 0;
+}
+
+.about-two__top-content .btn-box {
+    position: relative;
+    display: block;
+    margin-top: 37px;
+}
+
+.about-two__top-content .btn-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--thm-black);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-two__top-content .btn-box a:hover {
+    color: var(--thm-primary);
+}
+
+.about-two__top-content .btn-box a span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    color: var(--thm-gray);
+    font-size: 9px;
+    margin-left: 10px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.about-two__top-content .btn-box a:hover span {
+    color: var(--thm-primary);
+    border-color: var(--thm-primary);
+}
+
+.about-two__bottom {
+    position: relative;
+    display: block;
+    margin-top: 60px;
+}
+
+.about-two__counter {
+    position: relative;
+    display: block;
+}
+
+.about-two__counter .counter-one__single {
+    border-bottom: 0px solid #d9d9d9;
+    padding-bottom: 0px;
+    margin-bottom: 80px;
+}
+
+.about-two__contact {
+    position: relative;
+    display: block;
+    background: var(--thm-primary);
+    max-width: 500px;
+    width: 100%;
+    padding: 80px 0px 73px;
+    margin-top: -80px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.about-two__contact-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+
+.about-two__contact .icon-box {
+    position: relative;
+    display: block;
+    margin-bottom: 41px;
+}
+
+.about-two__contact .icon-box img {
+    width: auto;
+}
+
+.about-two__contact .text-box {
+    position: relative;
+    display: block;
+}
+
+.about-two__contact .text-box h3 {
+    color: var(--thm-white);
+    font-size: 27px;
+    line-height: 36px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.about-two__contact .text-box h2 {
+    color: var(--thm-white);
+    font-size: 50px;
+    line-height: 65px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-two__contact .btn-box {
+    position: relative;
+    display: block;
+    margin-top: 33px;
+}
+
+.about-two__contact .btn-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-white);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-two__contact .btn-box a span {
+    position: relative;
+    display: inline-block;
+    font-size: 9px;
+    margin-left: 7px;
+}
+
+/*=============================
+	About Three Css
+===============================*/
+.about-three {
+    position: relative;
+    display: block;
+    background: var(--thm-white);
+    padding: 120px 0px 120px;
+    z-index: 1;
+}
+
+.about-three .row {
+    align-items: center;
+}
+
+.about-three__img {
+    position: relative;
+    display: block;
+}
+
+.about-three__img-inner {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.about-three__img-inner .overlay-content {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 20px 40px 20px;
+    z-index: 5;
+}
+
+.about-three__img-inner .overlay-content::before {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0px;
+    right: 0;
+    background: var(--thm-primary);
+    content: "";
+    z-index: -1;
+}
+
+.about-three__img-inner .overlay-content::after {
+    position: absolute;
+    top: 0;
+    left: -10px;
+    bottom: -10px;
+    right: 0;
+    background: var(--thm-white);
+    content: "";
+    z-index: -2;
+}
+
+.about-three__img-inner .overlay-content .counter-box {
+    position: relative;
+    display: block;
+}
+
+.about-three__img-inner .overlay-content .counter-box h2 {
+    color: var(--thm-white);
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 400;
+}
+
+.about-three__img-inner .overlay-content .text-box {
+    position: relative;
+    display: block;
+    margin-left: 20px;
+    flex: 1;
+}
+
+.about-three__img-inner .overlay-content .text-box h3 {
+    color: var(--thm-white);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-three__content {
+    position: relative;
+    display: block;
+    margin-left: 50px;
+}
+
+.about-three__content .sec-title {
+    padding-bottom: 29px;
+}
+
+.about-three__content-text {
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+}
+
+.about-three__content-text p {
+    margin: 0;
+}
+
+.about-three__content-list {
+    position: relative;
+    display: block;
+}
+
+.about-three__content-list ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.about-three__content-list ul li {
+    position: relative;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.about-three__content-list ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.about-three__content-list ul li h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.about-three__content-list ul li h3 span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-primary);
+    font-size: 18px;
+    line-height: 18px;
+    margin-right: 1px;
+}
+
+.about-three__content-btn {
+    position: relative;
+    display: block;
+    margin-top: 51px;
+}
