@@ -9,26 +9,28 @@ export default function Brand() {
   const [brands, setBrands] = useState([
     {
       img1: "/assets/img/brand/brand-v1-img1.png",
-      img2: "/assets/img/brand/brand-v1-img6.png",
-    },
-    {
-      img1: "/assets/img/brand/brand-v1-img2.png",
-      img2: "/assets/img/brand/brand-v1-img7.png",
+      img2: "/assets/img/brand/brand-v1-img1.png",
     },
     {
       img1: "/assets/img/brand/brand-v1-img3.png",
-      img2: "/assets/img/brand/brand-v1-img8.png",
-    },
-    {
-      img1: "/assets/img/brand/brand-v1-img4.png",
-      img2: "/assets/img/brand/brand-v1-img9.png",
+      img2: "/assets/img/brand/brand-v1-img3.png",
     },
     {
       img1: "/assets/img/brand/brand-v1-img5.png",
-      img2: "/assets/img/brand/brand-v1-img10.png",
+      img2: "/assets/img/brand/brand-v1-img5.png",
     },
     {
-      img1: "/assets/img/brand/brand-v1-img1.png",
+      img1: "/assets/img/brand/brand-v1-img2.png",
+      img2: "/assets/img/brand/brand-v1-img2.png",
+    },
+
+    {
+      img1: "/assets/img/brand/brand-v1-img4.png",
+      img2: "/assets/img/brand/brand-v1-img4.png",
+    },
+
+    {
+      img1: "/assets/img/brand/brand-v1-img6.png",
       img2: "/assets/img/brand/brand-v1-img6.png",
     },
   ]);
