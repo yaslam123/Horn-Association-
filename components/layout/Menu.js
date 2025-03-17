@@ -4,13 +4,13 @@ export default function Menu() {
   return (
     <ul className="main-menu__list">
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/">The Firm</Link>
       </li>
       <li>
-        <Link href="/about">About</Link>
+        <Link href="/about">Culture</Link>
       </li>
       <li className="dropdown menu-item-has-children">
-        <Link href="#">Services</Link>
+        <Link href="#">Practices</Link>
         <ul className="sub-menu">
           <li>
             <Link href="/corporate-legal">Corporate Legal Services</Link>
@@ -69,7 +69,7 @@ export default function Menu() {
         </ul>
       </li> */}
       <li>
-        <Link href="/blog">Blog</Link>
+        <Link href="/blog">Insights</Link>
       </li>
       <li>
         <Link href="/contact">Contact</Link>
