@@ -42,13 +42,13 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               {/* Home Menu */}
               <li>
                 <Link href="/" onClick={handleMobileMenu}>
-                  Home
+                  The Firm
                 </Link>
               </li>
               {/* About Menu */}
               <li>
                 <Link href="/about" onClick={handleMobileMenu}>
-                  About
+                  Culture
                 </Link>
               </li>
 
@@ -61,7 +61,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                 }
               >
                 <Link href="#" onClick={handleMobileMenu}>
-                  Services
+                  Practices
                 </Link>
                 <ul
                   className="sub-menu"
@@ -122,7 +122,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
               {/* Blog Menu */}
               <li>
                 <Link href="/blog" onClick={handleMobileMenu}>
-                  Blog
+                  Insights
                 </Link>
               </li>
 
